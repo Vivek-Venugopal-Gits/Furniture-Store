@@ -1,0 +1,1017 @@
+[
+    {
+        "id": 1,
+        "name": "Aria Velvet Accent Chair",
+        "category": "Chair",
+        "subcategory": "Accent Chair",
+        "price": 12499,
+        "originalPrice": 16999,
+        "discountPercentage": 26,
+        "description": "Add a touch of sophistication to your space with the Aria Velvet Accent Chair. Featuring vertical channel tufting and a curved silhouette, it offers both comfort and contemporary style. The solid wood legs provide sturdy support, making it perfect for living rooms or reading nooks.",
+        "material": "Velvet Upholstery and Solid Wood Legs",
+        "color": "Mustard Yellow",
+        "dimensions": {
+            "width": "75 cm",
+            "depth": "80 cm",
+            "height": "86 cm"
+        },
+        "suitableFor": "Living Room / Bedroom",
+        "features": [
+            "Premium velvet fabric",
+            "Elegant channel tufting",
+            "Sturdy solid wood frame",
+            "High-density foam cushioning",
+            "Floor protectors on legs"
+        ],
+        "rating": 4.6,
+        "reviewCount": 95,
+        "stock": 31,
+        "imageUrl": "assets/images/products/chair_1.png"
+    },
+    {
+        "id": 2,
+        "name": "Kansai Solid Sheesham Rocking Chair",
+        "category": "Chair",
+        "subcategory": "Rocking Chair",
+        "price": 14999,
+        "originalPrice": 19999,
+        "discountPercentage": 25,
+        "description": "Crafted from durable Indian Sheesham wood with a natural teak finish, this rocking chair combines traditional craftsmanship with smooth ergonomic curves. The slatted high-back design provides spinal relief, ideal for balconies, verandas, or quiet study spaces.",
+        "material": "Solid Sheesham Wood",
+        "color": "Warm Walnut",
+        "dimensions": {
+            "width": "64 cm",
+            "depth": "92 cm",
+            "height": "104 cm"
+        },
+        "suitableFor": "Balcony / Study Room",
+        "features": [
+            "100% seasoned Sheesham hardwood",
+            "Smooth precision-curved rocker rails",
+            "High contoured slatted backrest",
+            "Wide contoured armrests for arm support",
+            "Termite-resistant natural lacquer finish"
+        ],
+        "rating": 4.7,
+        "reviewCount": 114,
+        "stock": 18,
+        "imageUrl": "assets/images/products/chair_2.png"
+    },
+    {
+        "id": 3,
+        "name": "Nexa Ergonomic Mesh Task Chair",
+        "category": "Chair",
+        "subcategory": "Office Chair",
+        "price": 8499,
+        "originalPrice": 12999,
+        "discountPercentage": 35,
+        "description": "Engineered for extended work-from-home sessions, the Nexa Ergonomic Chair features a breathable Korean mesh back with dynamic lumbar tracking. Its synchronized tilt mechanism and multi-directional armrests encourage healthy posture throughout long workdays.",
+        "material": "Breathable Mesh and Reinforced Nylon",
+        "color": "Charcoal Grey",
+        "dimensions": {
+            "width": "66 cm",
+            "depth": "64 cm",
+            "height": "118 cm"
+        },
+        "suitableFor": "Home Office / Study",
+        "features": [
+            "Dynamic height-adjustable lumbar support",
+            "Breathable high-tensile mesh backrest",
+            "Class 4 hydraulic gas lift mechanism",
+            "3D adjustable PU-padded armrests",
+            "Smooth-rolling 60mm nylon dual casters"
+        ],
+        "rating": 4.5,
+        "reviewCount": 240,
+        "stock": 45,
+        "imageUrl": "assets/images/products/chair_3.png"
+    },
+    {
+        "id": 4,
+        "name": "Tropica Rattan Lounge Chair",
+        "category": "Chair",
+        "subcategory": "Lounge Chair",
+        "price": 9500,
+        "originalPrice": 14500,
+        "discountPercentage": 34,
+        "description": "Bring a touch of bohemian elegance to your home with the Tropica Rattan Lounge Chair. Handwoven from natural cane with a sturdy teak wood frame, it includes a plush cotton cushion for relaxed, breezy seating.",
+        "material": "Natural Rattan and Teak Wood",
+        "color": "Natural Cane and Off-White",
+        "dimensions": {
+            "width": "68 cm",
+            "depth": "74 cm",
+            "height": "82 cm"
+        },
+        "suitableFor": "Sunroom / Living Room",
+        "features": [
+            "Handwoven natural rattan webbing",
+            "Solid teak wood structural frame",
+            "Removable organic cotton seat cushion",
+            "Breathable boho-chic design",
+            "Lightweight yet durable construction"
+        ],
+        "rating": 4.8,
+        "reviewCount": 62,
+        "stock": 15,
+        "imageUrl": "assets/images/products/chair_4.png"
+    },
+    {
+        "id": 5,
+        "name": "Verona Leatherette Manual Recliner",
+        "category": "Chair",
+        "subcategory": "Recliner",
+        "price": 18499,
+        "originalPrice": 24999,
+        "discountPercentage": 26,
+        "description": "Indulge in plush comfort with the Verona Manual Recliner, tailored with supple brown leatherette and generous multi-tier back padding. A heavy-duty steel reclining mechanism smoothly adjusts between reading, TV-watching, and full resting angles.",
+        "material": "Faux Leather and Alloy Steel Frame",
+        "color": "Chestnut Brown",
+            "dimensions": {
+            "width": "86 cm",
+            "depth": "94 cm",
+            "height": "102 cm"
+        },
+        "suitableFor": "Living Room / Home Theatre",
+        "features": [
+            "3-position smooth manual reclining mechanism",
+            "Padded pillow-top armrests",
+            "Sturdy powder-coated alloy steel base",
+            "Plush lumbar and headrest support",
+            "Water-repellent easy-wipe upholstery"
+        ],
+        "rating": 4.6,
+        "reviewCount": 182,
+        "stock": 22,
+        "imageUrl": "assets/images/products/chair_5.png"
+    },
+    {
+        "id": 6,
+        "name": "Astrid Bouclé Swivel Armchair",
+        "category": "Chair",
+        "subcategory": "Armchair",
+        "price": 16999,
+        "originalPrice": 22999,
+        "discountPercentage": 26,
+        "description": "Embrace modern organic curves with the Astrid Swivel Armchair, draped in textured cream bouclé fabric. Its 360-degree brushed brass swivel base and barrel backrest provide a cozy, sculptural presence for bedrooms and contemporary lounges.",
+        "material": "Bouclé Fabric and Steel Base",
+        "color": "Warm Cream",
+        "dimensions": {
+            "width": "78 cm",
+            "depth": "82 cm",
+            "height": "76 cm"
+        },
+        "suitableFor": "Living Room / Bedroom",
+        "features": [
+            "360-degree silent swivel rotation",
+            "Curved wrap-around barrel backrest",
+            "Heavyweight textured bouclé upholstery",
+            "Solid kiln-dried hardwood inner frame",
+            "Brushed champagne brass plinth base"
+        ],
+        "rating": 4.9,
+        "reviewCount": 78,
+        "stock": 14,
+        "imageUrl": "assets/images/products/chair_6.png"
+    },
+    {
+        "id": 7,
+        "name": "Malabar Cane Inset Dining Chair",
+        "category": "Chair",
+        "subcategory": "Dining Chair",
+        "price": 5499,
+        "originalPrice": 7499,
+        "discountPercentage": 27,
+        "description": "Crafted to elevate any dining area, this chair blends solid rubberwood joinery with a breathable natural cane-woven backrest. A cushioned foam seat upholstered in textured beige linen offers lasting support for lengthy dinner conversations.",
+        "material": "Solid Rubberwood and Natural Cane",
+        "color": "Honey Oak and Muted Beige",
+        "dimensions": {
+            "width": "48 cm",
+            "depth": "53 cm",
+            "height": "88 cm"
+        },
+        "suitableFor": "Dining Room",
+        "features": [
+            "Hand-stretched natural octagonal cane backrest",
+            "Solid plantation-grown rubberwood structure",
+            "High-resilience foam seat with linen upholstery",
+            "Mortise and tenon joinery for structural stability",
+            "Felt floor pads to prevent floor scuffs"
+        ],
+        "rating": 4.4,
+        "reviewCount": 89,
+        "stock": 38,
+        "imageUrl": "assets/images/products/chair_7.png"
+    },
+    {
+        "id": 8,
+        "name": "Nordic Bentwood Rocking Armchair",
+        "category": "Chair",
+        "subcategory": "Rocking Chair",
+        "price": 7999,
+        "originalPrice": 10999,
+        "discountPercentage": 27,
+        "description": "Inspired by Scandinavian functionalism, this bentwood rocking armchair balances lightweight flexibility with soothing motion. Its resilient layered birch frame and breathable cotton canvas sling cushion make it an inviting spot for afternoon reading.",
+        "material": "Layer-glued Birch Wood and Cotton Fabric",
+        "color": "Charcoal and Natural Birch",
+        "dimensions": {
+            "width": "67 cm",
+            "depth": "85 cm",
+            "height": "96 cm"
+        },
+        "suitableFor": "Living Room / Nursery",
+        "features": [
+            "Flexible steam-bent birch plywood frame",
+            "Removable and washable cotton cover",
+            "Integrated soft neck cushion for head support",
+            "Gentle, quiet rhythmic rocking motion",
+            "High weight capacity up to 120 kg"
+        ],
+        "rating": 4.5,
+        "reviewCount": 142,
+        "stock": 28,
+        "imageUrl": "assets/images/products/chair_8.png"
+    },
+        {
+        "id": 9,
+        "name": "Komorebi Minimalist Low Lounge Chair",
+        "category": "Chair",
+        "subcategory": "Lounge Chair",
+        "price": 10999,
+        "originalPrice": 14999,
+        "discountPercentage": 27,
+        "description": "Rooted in Japandi aesthetics, this low-slung lounge chair combines a solid ash wood frame with thick natural linen cushions. The angled seat profile and open armrest architecture foster a serene, grounded atmosphere in modern living spaces.",
+        "material": "Solid Ash Wood and Natural Linen",
+        "color": "Muted Sage Green and Light Ash",
+        "dimensions": {
+            "width": "70 cm",
+            "depth": "76 cm",
+            "height": "72 cm"
+        },
+        "suitableFor": "Living Room / Reading Corner",
+        "features": [
+            "Low-profile ergonomic reclined angle",
+            "Solid kiln-dried ash wood framework",
+            "Removable linen-blend cushion covers",
+            "Reinforced webbing suspension base",
+            "Smooth matte polyurethane protective finish"
+        ],
+        "rating": 4.7,
+        "reviewCount": 51,
+        "stock": 19,
+        "imageUrl": "assets/images/products/chair_9.png"
+    },
+        {
+        "id": 10,
+        "name": "Roark Industrial Distressed Leather Armchair",
+        "category": "Chair",
+        "subcategory": "Armchair",
+        "price": 21999,
+        "originalPrice": 28999,
+        "discountPercentage": 24,
+        "description": "An assertive fusion of vintage industrial edge and plush comfort, featuring hand-buffed saddle brown genuine leather paired with a matte black tubular iron chassis. Stitched panel detailing and padded arm wraps deliver durable relaxation for dens and upscale lofts.",
+        "material": "Top-Grain Leather and Iron",
+        "color": "Saddle Brown",
+        "dimensions": {
+            "width": "74 cm",
+            "depth": "82 cm",
+            "height": "79 cm"
+        },
+        "suitableFor": "Living Room / Study",
+        "features": [
+            "Hand-buffed genuine top-grain leather",
+            "Heavy-gauge matte black iron cantilever frame",
+            "Detachable padded leather armrest wraps",
+            "Dual-density high-resilience foam core",
+            "Reinforced horizontal strap seat support"
+        ],
+        "rating": 4.8,
+        "reviewCount": 97,
+        "stock": 11,
+        "imageUrl": "assets/images/products/chair_10.png"
+    },
+    {
+        "id": 11 ,
+        "name": "Elysian Chesterfield 3-Seater Sofa",
+        "category": "Sofa",
+        "subcategory": "3-Seater Sofa",
+        "price": 58999,
+        "originalPrice": 79999,
+        "discountPercentage": 26,
+        "description": "A classic Chesterfield sofa with modern sensibilities, featuring deep diamond tufting and rolled arms. It is upholstered in premium, velvet-finish fabric for a luxurious feel, making it the centerpiece of any living space.",
+        "material": "Velvet Upholstery and Solid Wood Frame",
+        "color": "Royal Blue",
+        "dimensions": {
+            "width": "220 cm",
+            "depth": "95 cm",
+            "height": "78 cm"
+        },
+        "suitableFor": "Living Room",
+        "features": [
+            "Classic Chesterfield design with deep button tufting",
+            "Premium velvet upholstery with subtle sheen",
+            "Sturdy kiln-dried solid hardwood frame",
+            "High-resilience foam cushioning for comfort",
+            "Elegant turned wooden legs with dark finish"
+        ],
+        "rating": 4.7,
+        "reviewCount": 215,
+        "stock": 18,
+        "imageUrl": "assets/images/products/sofa_1.png"
+    },
+    {
+        "id": 12,
+        "name": "Nordic Haven L-Shaped Sectional Sofa",
+        "category": "Sofa",
+        "subcategory": "L-shaped",
+        "price": 74999,
+        "originalPrice": 99999,
+        "discountPercentage": 25,
+        "description": "A spacious Scandinavian-inspired sectional sofa offering generous seating and a relaxed aesthetic. Upholstered in durable textured linen blend, it features clean lines and a right-facing chaise for versatile lounging.",
+        "material": "Linen Blend Fabric and Engineered Wood with Pine Core",
+        "color": "Oatmeal Beige",
+        "dimensions": {
+            "width": "265 cm",
+            "depth": "160 cm",
+            "height": "86 cm"
+        },
+        "suitableFor": "Living Room",
+        "features": [
+            "Reversible chaise orientation for flexible layouts",
+            "Breathable textured linen-cotton upholstery",
+            "Removable and washable seat cushion covers",
+            "High-density pocket spring base for sag resistance",
+            "Tapered light oak wood legs with floor glides"
+        ],
+        "rating": 4.6,
+        "reviewCount": 164,
+        "stock": 14,
+        "imageUrl": "assets/images/products/sofa_2.png"
+    },
+    {
+        "id": 13,
+        "name": "Velox Cognac Leatherette Recliner Loveseat",
+        "category": "Sofa",
+        "subcategory": "Recliner sofa",
+        "price": 42999,
+        "originalPrice": 59999,
+        "discountPercentage": 28,
+        "description": "A compact two-seater recliner sofa engineered for optimal relaxation with independent dual manual reclining mechanisms. Finished in rich cognac faux leather, it combines club-lounge luxury with ergonomic head and lumbar support.",
+        "material": "High-Grade Breathable Leatherette and Heavy-Duty Steel Mechanism",
+        "color": "Cognac Brown",
+        "dimensions": {
+            "width": "158 cm",
+            "depth": "98 cm",
+            "height": "102 cm"
+        },
+        "suitableFor": "Home Theatre / Living Room",
+        "features": [
+            "Dual independent manual reclining seats with three angle locks",
+            "Padded pillow-top armrests and contoured lumbar support",
+            "Water-resistant and easy-wipe breathable leatherette upholstery",
+            "Reinforced carbon-steel mechanism tested for 25,000 cycles",
+            "Integrated dual cup holders in centre console storage"
+        ],
+        "rating": 4.8,
+        "reviewCount": 92,
+        "stock": 11,
+        "imageUrl": "assets/images/products/sofa_3.png"
+    },
+    {
+        "id": 14,
+        "name": "Bento Modular 4-Piece Bouclé Sofa",
+        "category": "Sofa",
+        "subcategory": "Modular sofa",
+        "price": 86999,
+        "originalPrice": 115999,
+        "discountPercentage": 25,
+        "description": "An ultra-contemporary low-profile modular sofa crafted with textured bouclé fabric and sculpted curved edges. Its reconfigurable modules allow effortless transformation into a sectional, daybed, or intimate seating cluster.",
+        "material": "Textured Bouclé Fabric and Kiln-Dried Solid Teak Frame",
+        "color": "Charcoal Grey",
+        "dimensions": {
+            "width": "290 cm",
+            "depth": "105 cm",
+            "height": "72 cm"
+        },
+        "suitableFor": "Living Room / Modern Lounge",
+        "features": [
+            "Fully reconfigurable four-piece modular layout",
+            "Tactile heavy-weight bouclé fabric with anti-pilling finish",
+            "Ultra-dense multi-layer foam core for resilient support",
+            "Low-profile silhouette with concealed heavy-duty interlocking connectors",
+            "Concealed non-marking rubberized base feet"
+        ],
+        "rating": 4.9,
+        "reviewCount": 78,
+        "stock": 8,
+        "imageUrl": "assets/images/products/sofa_4.png"
+    },
+    {
+        "id": 15,
+        "name": "Komorebi Japandi Curved 3-Seater Sofa",
+        "category": "Sofa",
+        "subcategory": "3-seater",
+        "price": 62999,
+        "originalPrice": 84999,
+        "discountPercentage": 26,
+        "description": "An organic, crescent-shaped sofa reflecting serene Japandi principles with soft flowing contours and natural textures. Upholstered in an earthy moss green woven chenille, it invites relaxed lounging and effortless conversation.",
+        "material": "Woven Chenille Upholstery and Solid Ash Wood Plinth",
+        "color": "Moss Green",
+        "dimensions": {
+            "width": "235 cm",
+            "depth": "100 cm",
+            "height": "76 cm"
+        },
+        "suitableFor": "Living Room",
+        "features": [
+            "Organic crescent silhouette with continuous curved backrest",
+            "Plush chenille fabric offering a rich matte texture",
+            "Seamless solid ash wood base plinth with natural oil finish",
+            "Sinuous spring suspension system ensuring durable elasticity",
+            "Double-stitched seams for enhanced wear resistance"
+        ],
+        "rating": 4.7,
+        "reviewCount": 114,
+        "stock": 16,
+        "imageUrl": "assets/images/products/sofa_5.png"
+    },
+    {
+        "id": 16,
+        "name": "Astrid Mid-Century Tufted Loveseat",
+        "category": "Sofa",
+        "subcategory": "Loveseat",
+        "price": 28999,
+        "originalPrice": 38999,
+        "discountPercentage": 26,
+        "description": "A compact retro-inspired loveseat featuring tailored blind button tufting and clean flared track arms. Upholstered in crisp mustard yellow weave fabric, it brings vibrant mid-century modern character to compact apartments and reading dens.",
+        "material": "Textured Poly-Blend Fabric and Solid Rubberwood Legs",
+        "color": "Mustard Yellow",
+        "dimensions": {
+            "width": "142 cm",
+            "depth": "82 cm",
+            "height": "80 cm"
+        },
+        "suitableFor": "Small Living Room / Study",
+        "features": [
+            "Retro-inspired tailored blind tufting across back cushions",
+            "Splayed solid rubberwood legs with walnut stain finish",
+            "Removable seat cushions with hidden bottom Velcro anchors",
+            "Reinforced corner-blocked wood frame construction",
+            "Stain-resistant fabric coating for easy spot cleaning"
+        ],
+        "rating": 4.5,
+        "reviewCount": 142,
+        "stock": 20,
+        "imageUrl": "assets/images/products/sofa_6.png"
+    },
+    {
+        "id": 17,
+        "name": "Valencia Industrial Metal-Frame 2-Seater Sofa",
+        "category": "Sofa",
+        "subcategory": "2-seater",
+        "price": 34999,
+        "originalPrice": 46999,
+        "discountPercentage": 26,
+        "description": "An edgy industrial-style two-seater sofa featuring a matte black powder-coated steel cradle wrapped around deep, tailored cushions. Upholstered in distressed tobacco saddle leatherette, it delivers an urban loft aesthetic with relaxed everyday comfort.",
+        "material": "Distressed Faux Leather and Powder-Coated Carbon Steel",
+        "color": "Tobacco Brown",
+        "dimensions": {
+            "width": "162 cm",
+            "depth": "88 cm",
+            "height": "75 cm"
+        },
+        "suitableFor": "Living Room / Studio Apartment",
+        "features": [
+            "Open-concept perimeter tubular steel cage frame",
+            "Supple distressed leatherette with vintage patina effect",
+            "High-density foam core with fiber wrap for plush sit",
+            "Removable seat and backrest cushions with zippered casings",
+            "Scratch-resistant nylon leveling glides beneath metal legs"
+        ],
+        "rating": 4.6,
+        "reviewCount": 87,
+        "stock": 15,
+        "imageUrl": "assets/images/products/sofa_7.png"
+    },
+    {
+        "id": 18,
+        "name": "Sorrento Curved Bouclé Sectional Sofa",
+        "category": "Sofa",
+        "subcategory": "Sectional",
+        "price": 98999,
+        "originalPrice": 129999,
+        "discountPercentage": 24,
+        "description": "An expansive semicircular sectional sofa designed with fluid architectural lines and wrapped in tactile off-white bouclé. Its generous curve fosters intimate conversation while making an imposing sculptural statement in open-concept spaces.",
+        "material": "Textured Bouclé Fabric and Kiln-Dried Solid Pine Wood Frame",
+        "color": "Warm Ivory",
+        "dimensions": {
+            "width": "310 cm",
+            "depth": "175 cm",
+            "height": "74 cm"
+        },
+        "suitableFor": "Living Room",
+        "features": [
+            "Sculptural semi-circular sectional silhouette",
+            "Plush textured bouclé upholstery with high abrasion resistance",
+            "Multi-density foam seating with feather-down blend topper",
+            "Heavy-duty internal steel latch connectors between sections",
+            "Concealed low-profile recessed dark wood feet"
+        ],
+        "rating": 4.8,
+        "reviewCount": 63,
+        "stock": 7,
+        "imageUrl": "assets/images/products/sofa_8.png"
+    },
+    {
+        "id": 19,
+        "name": "Malabar Cane & Teak Wood 3-Seater Sofa",
+        "category": "Sofa",
+        "subcategory": "3-seater",
+        "price": 52999,
+        "originalPrice": 69999,
+        "discountPercentage": 24,
+        "description": "A transitional handcrafted three-seater sofa blending solid plantation teak wood with natural woven cane side and back panels. Finished with deep, weather-resistant terracotta cotton upholstery, it brings breezy tropical elegance to modern Indian living rooms.",
+        "material": "Solid Teak Wood, Natural Rattan Cane, and Heavy Cotton Canvas",
+        "color": "Terracotta",
+        "dimensions": {
+            "width": "205 cm",
+            "depth": "85 cm",
+            "height": "78 cm"
+        },
+        "suitableFor": "Living Room / Verandah Lounge",
+        "features": [
+            "Hand-woven natural hexagonal cane webbing on sides and back",
+            "Kiln-dried solid plantation teak frame with natural matte polyurethane finish",
+            "Removable seat and back cushions upholstered in high-GSM cotton canvas",
+            "High-density PU foam cushioning with soft polyfill wrap",
+            "Tapered architectural solid wood legs with concealed nylon floor protectors"
+        ],
+        "rating": 4.8,
+        "reviewCount": 110,
+        "stock": 12,
+        "imageUrl": "assets/images/products/sofa_9.png"
+        },
+    {
+        "id": 20,
+        "name": "Kashmir Tufted Emerald Daybed Sofa",
+        "category": "Sofa",
+        "subcategory": "Daybed Sofa",
+        "price": 45999,
+        "originalPrice": 61999,
+        "discountPercentage": 26,
+        "description": "A sophisticated multi-functional daybed sofa featuring continuous channel tufting across an asymmetrical bolster backrest and sleek brass-tipped spindle legs. Wrapped in rich emerald green velvet, it effortlessly transitions between a plush day lounger and a welcoming living room settee.",
+        "material": "High-Density Velvet and Solid Sheesham Wood with Brass Accents",
+        "color": "Emerald Green",
+        "dimensions": {
+            "width": "195 cm",
+            "depth": "88 cm",
+            "height": "76 cm"
+        },
+        "suitableFor": "Living Room / Guest Lounge",
+        "features": [
+            "Asymmetrical curved bolster arm and backrest with fluted vertical channel tufting",
+            "Lustrous stain-resistant jewel-toned velvet upholstery",
+            "Solid Sheesham wood base frame with warm walnut stain",
+            "Turned hardwood legs tipped with brushed antique brass ferrules",
+            "Single-piece bench-style seat cushion with high-resilience pocketed foam"
+        ],
+        "rating": 4.9,
+        "reviewCount": 73,
+        "stock": 9,
+        "imageUrl": "assets/images/products/sofa_10.png"
+    },
+    {
+        "id": 21,
+        "name": "Kaveri Sheesham 6-Seater Dining Table",
+        "category": "Dining Table",
+        "subcategory": "Rectangular",
+        "price": 27499,
+        "originalPrice": 36999,
+        "discountPercentage": 26,
+        "description": "Expertly handcrafted from durable Indian Sheesham wood, this spacious six-seater dining table showcases rich natural timber grains with subtle beveled edges. Built to handle daily family meals while lending a timeless, warm aesthetic to your dining area.",
+        "material": "Solid Sheesham Wood",
+        "color": "Honey Teak Finish",
+        "dimensions": {
+            "width": "150 cm",
+            "depth": "90 cm",
+            "height": "76 cm"
+        },
+        "suitableFor": "Dining Room",
+        "features": [
+            "Handcrafted from seasoned solid Sheesham wood",
+            "Spacious tabletop accommodates 6 people comfortably",
+            "Durable honey teak finish resistant to everyday spills",
+            "Sturdy tapered wooden legs with high load capacity",
+            "Protective floor pads to prevent scuffs and scratches"
+        ],
+        "rating": 4.6,
+        "reviewCount": 184,
+        "stock": 19,
+        "imageUrl": "assets/images/products/dining_table_1.png"
+    },
+    {
+        "id": 22,
+        "name": "Aura Carrera Round Marble Dining Table",
+        "category": "Dining Table",
+        "subcategory": "Round",
+        "price": 42999,
+        "originalPrice": 59999,
+        "discountPercentage": 28,
+        "description": "A sophisticated round dining table featuring an authentic white Carrera marble top with soft grey veining, anchored by a fluted brushed brass pedestal base. Perfect for modern urban apartments seeking effortless elegance and intimate meal settings.",
+        "material": "Composite Marble and Stainless Steel",
+        "color": "Carrera White and Brushed Brass",
+        "dimensions": {
+            "width": "110 cm",
+            "depth": "110 cm",
+            "height": "75 cm"
+        },
+        "suitableFor": "Dining Room",
+        "features": [
+            "Polished composite marble top with stain-resistant sealant",
+            "Central fluted pedestal base maximizes legroom",
+            "Seats up to 4 diners comfortably",
+            "Heavy-gauge stainless steel base with brushed brass PVD finish",
+            "Weighted circular base plate for ultimate stability"
+        ],
+        "rating": 4.7,
+        "reviewCount": 92,
+        "stock": 11,
+        "imageUrl": "assets/images/products/dining_table_2.png"
+    },
+    {
+        "id": 23,
+        "name": "Nirvana Glass-Top 4-Seater Dining Table",
+        "category": "Dining Table",
+        "subcategory": "Glass-top",
+        "price": 16499,
+        "originalPrice": 22999,
+        "discountPercentage": 28,
+        "description": "An airy contemporary dining table crafted with high-strength tempered glass and crisscross walnut-finished solid ash wood legs. The transparent top creates an illusion of open space, making it an ideal centerpiece for compact modern homes.",
+        "material": "Tempered Glass and Ash Wood",
+        "color": "Clear Glass and Walnut",
+        "dimensions": {
+            "width": "120 cm",
+            "depth": "80 cm",
+            "height": "74 cm"
+        },
+        "suitableFor": "Dining Room",
+        "features": [
+            "10mm thermally toughened shatter-resistant glass",
+            "Beveled polished edges for child-safe dining",
+            "Architectural interlocking solid ash wood trestle base",
+            "Heavy-duty suction grips secure the glass top firmly",
+            "Waterproof and heat-resistant low-maintenance surface"
+        ],
+        "rating": 4.3,
+        "reviewCount": 77,
+        "stock": 16,
+        "imageUrl": "assets/images/products/dining_table_3.png"
+    },
+    {
+        "id": 24,
+        "name": "Vanguard Extendable Butterfly Dining Table",
+        "category": "Dining Table",
+        "subcategory": "Extendable",
+        "price": 38999,
+        "originalPrice": 51999,
+        "discountPercentage": 25,
+        "description": "An engineered convertible dining table with a smooth internal butterfly leaf mechanism that effortlessly expands seating from four to eight people. Finished in a warm oak veneer over kiln-dried hardwood, it delivers unmatched flexibility for festive gatherings and everyday dinners.",
+        "material": "Kiln-Dried Hardwood and Oak Veneer",
+        "color": "Natural Warm Oak",
+        "dimensions": {
+            "width": "160 cm",
+            "depth": "90 cm",
+            "height": "76 cm"
+        },
+        "suitableFor": "Dining Room",
+        "features": [
+            "Effortless butterfly fold-out extension leaf mechanism",
+            "Expands from 160 cm (6-seater) to 210 cm (8-seater)",
+            "Durable kiln-dried hardwood construction preventing warping",
+            "UV-cured polyurethane clear coat for scratch resistance",
+            "Heavy-duty German-engineered metal glide rails"
+        ],
+        "rating": 4.8,
+        "reviewCount": 115,
+        "stock": 14,
+        "imageUrl": "assets/images/products/dining_table_4.png"
+    },
+    {
+        "id": 25,
+        "name": "Bespoke Raw Edge Acacia 8-Seater Dining Table",
+        "category": "Dining Table",
+        "subcategory": "Solid wood",
+        "price": 64999,
+        "originalPrice": 84999,
+        "discountPercentage": 24,
+        "description": "A striking statement piece crafted from solid live-edge acacia wood, retaining the natural undulating contours and organic knots of the tree trunk. Supported by heavy-duty matte black steel U-legs, it blends raw natural warmth with bold industrial design.",
+        "material": "Solid Acacia Wood and Powder-Coated Steel",
+        "color": "Natural Acacia and Matte Black",
+        "dimensions": {
+            "width": "220 cm",
+            "depth": "100 cm",
+            "height": "77 cm"
+        },
+        "suitableFor": "Dining Room",
+        "features": [
+            "Hand-selected organic live-edge solid acacia wood slab",
+            "Generous 220 cm length comfortably seats 8 to 10 guests",
+            "Heavy-gauge industrial steel U-shaped trestle legs",
+            "Moisture-resistant clear satin lacquer preserves natural grain",
+            "Adjustable leveler feet for uneven flooring"
+        ],
+        "rating": 4.9,
+        "reviewCount": 142,
+        "stock": 8,
+        "imageUrl": "assets/images/products/dining_table_5.png"
+    },
+    {
+        "id": 26,
+        "name": "Kaveri Solid Sheesham 5-Tier Bookshelf",
+        "category": "Bookshelf",
+        "subcategory": "Open Bookshelf",
+        "price": 14999,
+        "originalPrice": 21999,
+        "discountPercentage": 32,
+        "description": "Crafted from durable solid Sheesham wood, this tall 5-tier open bookshelf showcases rich natural grain patterns and a warm honey finish. It provides generous vertical display storage for novels, framed photos, and curated decorative accents in modern Indian homes.",
+        "material": "Solid Sheesham Wood",
+        "color": "Honey Teak",
+        "dimensions": {
+            "width": "80 cm",
+            "depth": "35 cm",
+            "height": "180 cm"
+        },
+        "suitableFor": "Study Room & Living Room",
+        "features": [
+            "Premium solid Sheesham wood construction",
+            "Five spacious open tiers with high load capacity",
+            "Hand-applied protective melamine finish",
+            "Anti-topple wall anchor kit included",
+            "Natural distinctive wood grain aesthetics"
+        ],
+        "rating": 4.6,
+        "reviewCount": 94,
+        "stock": 18,
+        "imageUrl": "assets/images/products/bookshelf_1.png"
+    },
+    {
+        "id": 27,
+        "name": "Apex Industrial 4-Tier Ladder Bookshelf",
+        "category": "Bookshelf",
+        "subcategory": "Ladder Bookshelf",
+        "price": 6499,
+        "originalPrice": 9999,
+        "discountPercentage": 35,
+        "description": "A stylish leaning ladder bookshelf built with a durable matte black metal frame and rustic dark oak engineered wood shelves. Its space-saving vertical profile is ideal for compact urban apartments and home offices looking for an edgy industrial aesthetic.",
+        "material": "Engineered Wood and Powder-Coated Iron",
+        "color": "Rustic Dark Oak and Matte Black",
+        "dimensions": {
+            "width": "60 cm",
+            "depth": "38 cm",
+            "height": "150 cm"
+        },
+        "suitableFor": "Home Office",
+        "features": [
+            "Sturdy A-frame metal construction",
+            "Tiered shelf depth for diverse decor sizes",
+            "Scratch-resistant melamine surface",
+            "Floor-protecting adjustable leveling feet",
+            "Lightweight yet robust structural build"
+        ],
+        "rating": 4.4,
+        "reviewCount": 112,
+        "stock": 31,
+        "imageUrl": "assets/images/products/bookshelf_2.png"
+    },
+    {
+        "id": 28,
+        "name": "Nirvana Fluted Glass Closed Bookshelf",
+        "category": "Bookshelf",
+        "subcategory": "Closed Bookshelf",
+        "price": 22499,
+        "originalPrice": 29999,
+        "discountPercentage": 25,
+        "description": "An elegant closed bookcase featuring dual fluted-glass framed doors and brushed brass cylindrical handles. It offers dust-free protected storage across four spacious compartments, blending timeless mid-century charm with modern functional utility.",
+        "material": "Engineered Wood with Fluted Glass and Metal Hardware",
+        "color": "Walnut Brown",
+        "dimensions": {
+            "width": "85 cm",
+            "depth": "40 cm",
+            "height": "165 cm"
+        },
+        "suitableFor": "Living Room & Library",
+        "features": [
+            "Tempered fluted glass front panels",
+            "Dust-proof enclosed cabinet design",
+            "Adjustable internal shelf heights",
+            "Soft-close magnetic door hinges",
+            "Brushed brass hardware accents"
+        ],
+        "rating": 4.7,
+        "reviewCount": 68,
+        "stock": 14,
+        "imageUrl": "assets/images/products/bookshelf_3.png"
+    },
+    {
+        "id": 29,
+        "name": "HexaSpace Geometric Honeycomb Wall-Mounted Bookshelf",
+        "category": "Bookshelf",
+        "subcategory": "Wall-Mounted",
+        "price": 4299,
+        "originalPrice": 6499,
+        "discountPercentage": 34,
+        "description": "An eye-catching modular wall shelf set showcasing an interlocking hexagonal honeycomb arrangement in a dual-tone finish. It transforms plain vertical wall space into an artful exhibition area for paperbacks, small sculptures, and indoor succulents.",
+        "material": "High-Grade Engineered MDF Wood",
+        "color": "Matte White and Natural Pine",
+        "dimensions": {
+            "width": "95 cm",
+            "depth": "18 cm",
+            "height": "65 cm"
+        },
+        "suitableFor": "Bedroom & Living Room",
+        "features": [
+            "Contemporary modular honeycomb geometry",
+            "Concealed heavy-duty metal wall brackets",
+            "Stain and scratch-resistant matte laminate",
+            "Compact footprint ideal for small spaces",
+            "Easy flush-to-wall mounting installation"
+        ],
+        "rating": 4.3,
+        "reviewCount": 87,
+        "stock": 42,
+        "imageUrl": "assets/images/products/bookshelf_4.png"
+    },
+    {
+        "id": 30,
+        "name": "Vortex 5-Tier Space-Saving Corner Bookshelf",
+        "category": "Bookshelf",
+        "subcategory": "Corner Bookshelf",
+        "price": 5499,
+        "originalPrice": 7999,
+        "discountPercentage": 31,
+        "description": "Designed to optimize awkward 90-degree room corners, this fan-shaped 5-tier étagère features smooth radial shelves and a slender black metal frame. It turns unused corner pockets into functional vertical stages for favorite paperbacks, travel curios, and houseplants.",
+        "material": "Engineered Wood with Powder-Coated Steel Frame",
+        "color": "Distressed Charcoal and Matte Black",
+        "dimensions": {
+            "width": "42 cm",
+            "depth": "42 cm",
+            "height": "160 cm"
+        },
+        "suitableFor": "Living Room & Bedroom Corner",
+        "features": [
+            "Right-angle rear profile designed for flush 90-degree corner placement",
+            "Five fan-shaped radial shelves with smooth rounded front edges",
+            "Reinforced three-legged tubular steel support structure",
+            "Scratch-resistant textured melamine wood grain veneer",
+            "Adjustable non-slip foot levelers for uneven flooring"
+        ],
+        "rating": 4.5,
+        "reviewCount": 105,
+        "stock": 27,
+        "imageUrl": "assets/images/products/bookshelf_5.png"
+    },
+    {
+        "id": 31,
+        "name": "Kavya Sheesham Wood King Bed with Box Storage",
+        "category": "Bed",
+        "subcategory": "Storage Bed",
+        "price": 42999,
+        "originalPrice": 59999,
+        "discountPercentage": 28,
+        "description": "Crafted from seasoned Indian Sheesham wood, this king-size bed combines traditional joinery with clean contemporary lines. It features a spacious dual-compartment hydraulic box storage base alongside a slatted headboard designed for comfortable back support.",
+        "material": "Solid Sheesham Wood",
+        "color": "Warm Walnut Finish",
+        "dimensions": {
+            "width": "193 cm",
+            "depth": "210 cm",
+            "height": "105 cm"
+        },
+        "suitableFor": "Master Bedroom",
+        "features": [
+            "Premium solid Sheesham wood construction",
+            "Easy-lift hydraulic box storage mechanism",
+            "Termite-resistant and moisture-sealed timber",
+            "Ergonomically angled slatted headboard",
+            "Heavy-duty base engineered for high mattress weights"
+        ],
+        "rating": 4.7,
+        "reviewCount": 214,
+        "stock": 18,
+        "imageUrl": "assets/images/products/bed_1.png"
+    },
+    {
+        "id": 32,
+        "name": "Astrid Velvet Tufted Queen Bed",
+        "category": "Bed",
+        "subcategory": "Upholstered Bed",
+        "price": 32499,
+        "originalPrice": 46999,
+        "discountPercentage": 31,
+        "description": "Designed to bring modern luxury into your bedroom, this queen-size bed features a channel-tufted wingback headboard dressed in plush velvet. Supported by tapered brass-finished metal legs, it offers a secure slatted foundation with zero creak noise.",
+        "material": "Engineered Wood, Velvet Fabric, and Steel Legs",
+        "color": "Midnight Blue",
+        "dimensions": {
+            "width": "162 cm",
+            "depth": "208 cm",
+            "height": "122 cm"
+        },
+        "suitableFor": "Bedroom",
+        "features": [
+            "Rich stain-resistant velvet upholstery",
+            "Vertical channel-tufted wingback headboard",
+            "Electroplated tapered gold metal legs",
+            "Solid wooden slats for noise-free support",
+            "High-density foam padding for relaxed lounging"
+        ],
+        "rating": 4.6,
+        "reviewCount": 182,
+        "stock": 25,
+        "imageUrl": "assets/images/products/bed_2.png"
+    },
+    {
+        "id": 33,
+        "name": "Nara Japanese Low-Profile Platform Bed",
+        "category": "Bed",
+        "subcategory": "Platform Bed",
+        "price": 27999,
+        "originalPrice": 38999,
+        "discountPercentage": 28,
+        "description": "Inspired by minimalist Japandi interiors, this low-platform queen bed emphasizes horizontal lines and natural grain textures. Its wide cantilevered wooden ledge provides an organic resting border that eliminates the need for box springs.",
+        "material": "Solid Teak Wood and Plywood Substrate",
+        "color": "Natural Blonde Ash",
+        "dimensions": {
+            "width": "180 cm",
+            "depth": "220 cm",
+            "height": "48 cm"
+        },
+        "suitableFor": "Master Bedroom",
+        "features": [
+            "Low-profile minimalist silhouette",
+            "Extended side ledge border design",
+            "Solid natural teak frame with matte PU finish",
+            "Squeak-free interlocking joinery",
+            "Broad slatted base ensuring optimal mattress airflow"
+        ],
+        "rating": 4.8,
+        "reviewCount": 97,
+        "stock": 14,
+        "imageUrl": "assets/images/products/bed_3.png"
+    },
+    {
+        "id": 34,
+        "name": "Valencia Rattan Cane Single Daybed",
+        "category": "Bed",
+        "subcategory": "Single Bed",
+        "price": 18499,
+        "originalPrice": 24999,
+        "discountPercentage": 26,
+        "description": "A versatile single daybed showcasing hand-woven natural cane wicker panels inset into a rounded rubberwood frame. Perfect for compact guest spaces or quiet reading nooks, it seamlessly shifts from daytime lounging sofa to a restful night sleeper.",
+        "material": "Solid Rubberwood and Natural Cane Wicker",
+        "color": "Caramel Brown",
+        "dimensions": {
+            "width": "100 cm",
+            "depth": "202 cm",
+            "height": "82 cm"
+        },
+        "suitableFor": "Guest Room",
+        "features": [
+            "Hand-woven natural rattan side and back panels",
+            "Dual-purpose single daybed configuration",
+            "Smooth rounded safety-edge woodwork",
+            "Sturdy cross-braced slat support base",
+            "Compact footprint tailored for modern Indian flats"
+        ],
+        "rating": 4.4,
+        "reviewCount": 79,
+        "stock": 16,
+        "imageUrl": "assets/images/products/bed_4.png"
+    },
+    {
+        "id": 35,
+        "name": "Krona Loft Metal and Mango Wood Double Bed",
+        "category": "Bed",
+        "subcategory": "Double Bed",
+        "price": 21999,
+        "originalPrice": 29999,
+        "discountPercentage": 27,
+        "description": "Combining industrial character with everyday durability, this double bed pairs a matte black steel framework with hand-finished rustic mango wood inserts. Its open under-bed space facilitates effortless cleaning and accommodates under-bed storage boxes.",
+        "material": "Powder-Coated Mild Steel and Solid Mango Wood",
+        "color": "Matte Black and Distressed Honey",
+        "dimensions": {
+            "width": "142 cm",
+            "depth": "198 cm",
+            "height": "95 cm"
+        },
+        "suitableFor": "Bedroom",
+        "features": [
+            "Heavy-gauge steel frame with scratch-resistant powder coating",
+            "Authentic distressed mango wood headboard panel",
+            "Generous 26 cm under-bed clearance for storage boxes",
+            "Center support rail with reinforced central legs",
+            "Bolt-lock assembly ensuring zero wobbling or squeaking"
+        ],
+        "rating": 4.5,
+        "reviewCount": 142,
+        "stock": 20,
+        "imageUrl": "assets/images/products/bed_5.png"
+    }
+]
