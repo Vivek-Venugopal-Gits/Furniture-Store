@@ -5,11 +5,14 @@ import '../../auth/bloc/auth_bloc.dart';
 import '../../auth/bloc/auth_event.dart';
 import '../../auth/bloc/auth_state.dart';
 import '../../auth/pages/login_page.dart';
+import '../../navigation/main_screen.dart';
 
 /// Read-only user profile page displaying user initials, full name, email,
 /// phone number, and account logout.
 class ProfilePage extends StatelessWidget {
-  const ProfilePage({super.key});
+  final VoidCallback? onBackToHome;
+
+  const ProfilePage({super.key, this.onBackToHome});
 
   void _showLogoutDialog(BuildContext context) {
     showDialog(
@@ -64,7 +67,17 @@ class ProfilePage extends StatelessWidget {
         title: const Text('Account Profile'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new, size: 20),
-          onPressed: () => Navigator.of(context).pop(),
+          onPressed: () {
+            if (Navigator.of(context).canPop()) {
+              Navigator.of(context).pop();
+            } else if (onBackToHome != null) {
+              onBackToHome!();
+            } else {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(builder: (_) => const MainScreen()),
+              );
+            }
+          },
         ),
       ),
       body: BlocBuilder<AuthBloc, AuthState>(

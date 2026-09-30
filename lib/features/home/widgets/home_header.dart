@@ -9,8 +9,13 @@ import '../../profile/pages/profile_page.dart';
 /// Top header containing branding, user context, profile icon, and decorative cart.
 class HomeHeader extends StatelessWidget {
   final VoidCallback? onCartTapped;
+  final VoidCallback? onProfileTapped;
 
-  const HomeHeader({super.key, this.onCartTapped});
+  const HomeHeader({
+    super.key,
+    this.onCartTapped,
+    this.onProfileTapped,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -107,9 +112,15 @@ class HomeHeader extends StatelessWidget {
                 // Functional Profile Icon
                 InkWell(
                   onTap: () {
-                    Navigator.of(context).push(
-                      MaterialPageRoute(builder: (_) => const ProfilePage()),
-                    );
+                    if (onProfileTapped != null) {
+                      onProfileTapped!();
+                    } else {
+                      Navigator.of(context).push(
+                        MaterialPageRoute(
+                          builder: (_) => const ProfilePage(),
+                        ),
+                      );
+                    }
                   },
                   borderRadius: BorderRadius.circular(12),
                   child: Container(

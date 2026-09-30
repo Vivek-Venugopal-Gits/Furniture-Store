@@ -25,16 +25,30 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     final List<Widget> pages = [
-      HomePage(onCartTapped: () => _onTabSelected(2)),
+      HomePage(
+        onCartTapped: () => _onTabSelected(2),
+        onProfileTapped: () => _onTabSelected(3),
+      ),
       const ExplorePage(),
       CartPlaceholderPage(onExploreTapped: () => _onTabSelected(0)),
-      const ProfilePage(),
+      ProfilePage(onBackToHome: () => _onTabSelected(0)),
     ];
 
     return Scaffold(
-      body: IndexedStack(
-        index: _currentIndex,
-        children: pages,
+      body: PopScope(
+        canPop: _currentIndex == 0,
+        onPopInvokedWithResult: (didPop, result) {
+          if (didPop) return;
+          if (_currentIndex != 0) {
+            setState(() {
+              _currentIndex = 0;
+            });
+          }
+        },
+        child: IndexedStack(
+          index: _currentIndex,
+          children: pages,
+        ),
       ),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(

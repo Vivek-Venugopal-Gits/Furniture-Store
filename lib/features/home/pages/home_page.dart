@@ -15,8 +15,13 @@ import '../widgets/search_bar_widget.dart';
 /// visual editorial banners, responsive product grid, and infinite scrolling.
 class HomePage extends StatefulWidget {
   final VoidCallback? onCartTapped;
+  final VoidCallback? onProfileTapped;
 
-  const HomePage({super.key, this.onCartTapped});
+  const HomePage({
+    super.key,
+    this.onCartTapped,
+    this.onProfileTapped,
+  });
 
   @override
   State<HomePage> createState() => _HomePageState();
@@ -80,7 +85,10 @@ class _HomePageState extends State<HomePage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      HomeHeader(onCartTapped: widget.onCartTapped),
+                      HomeHeader(
+                        onCartTapped: widget.onCartTapped,
+                        onProfileTapped: widget.onProfileTapped,
+                      ),
                       const SizedBox(height: 18),
                       SearchBarWidget(onFilterTap: _openFilters),
                       const SizedBox(height: 20),
