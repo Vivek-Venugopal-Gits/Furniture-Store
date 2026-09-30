@@ -87,26 +87,34 @@ class AuthGatekeeper extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 Container(
-                  width: 76,
-                  height: 76,
+                  width: 170,
+                  height: 170,
                   decoration: BoxDecoration(
-                    color: AppColors.primaryWalnut,
-                    borderRadius: BorderRadius.circular(22),
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(36),
                     boxShadow: [
                       BoxShadow(
-                        color: AppColors.primaryWalnut.withValues(alpha: 0.3),
-                        blurRadius: 20,
-                        offset: const Offset(0, 8),
+                        color: AppColors.primaryWalnut.withValues(alpha: 0.12),
+                        blurRadius: 30,
+                        offset: const Offset(0, 10),
                       ),
                     ],
                   ),
-                  child: const Icon(
-                    Icons.chair_outlined,
-                    size: 42,
-                    color: AppColors.textOnPrimary,
+                  clipBehavior: Clip.antiAlias,
+                  child: Image.asset(
+                    AppConstants.appLogoPath,
+                    fit: BoxFit.contain,
+                    errorBuilder: (context, error, stackTrace) => Container(
+                      color: AppColors.primaryWalnut,
+                      child: const Icon(
+                        Icons.chair_outlined,
+                        size: 120,
+                        color: AppColors.textOnPrimary,
+                      ),
+                    ),
                   ),
                 ),
-                const SizedBox(height: 24),
+                const SizedBox(height: 28),
                 Text(
                   AppConstants.appName,
                   style: Theme.of(context).textTheme.displayMedium,

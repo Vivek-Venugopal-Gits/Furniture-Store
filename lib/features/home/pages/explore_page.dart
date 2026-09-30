@@ -99,6 +99,7 @@ class ExplorePage extends StatelessWidget {
                           width: 180,
                           child: ProductCard(
                             product: matchingProducts[pIndex],
+                            heroTagPrefix: 'explore_${cat}_$pIndex',
                           ),
                         );
                       },

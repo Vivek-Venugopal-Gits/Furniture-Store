@@ -6,10 +6,12 @@ import '../../../data/models/product.dart';
 /// of the product JSON with artisanal furniture luxury styling.
 class ProductDetailsPage extends StatelessWidget {
   final Product product;
+  final String? heroTag;
 
   const ProductDetailsPage({
     super.key,
     required this.product,
+    this.heroTag,
   });
 
   String _formatPrice(num price) {
@@ -68,7 +70,7 @@ class ProductDetailsPage extends StatelessWidget {
             ],
             flexibleSpace: FlexibleSpaceBar(
               background: Hero(
-                tag: 'product_image_${product.id}',
+                tag: heroTag ?? 'catalog_product_image_${product.id}',
                 child: Image.asset(
                   product.imageUrl,
                   fit: BoxFit.cover,

@@ -1,5 +1,7 @@
 import 'dart:convert';
+import 'dart:io';
 import 'package:flutter/services.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../core/constants/app_constants.dart';
 import '../models/user.dart';
@@ -13,6 +15,7 @@ abstract class UserLocalDataSource {
   Future<void> setActiveSessionEmail(String email);
   Future<String?> getActiveSessionEmail();
   Future<void> clearActiveSession();
+  Future<String?> getLocalJsonFilePath();
 }
 
 class UserLocalDataSourceImpl implements UserLocalDataSource {
@@ -25,8 +28,24 @@ class UserLocalDataSourceImpl implements UserLocalDataSource {
   })  : _preferences = preferences,
         _assetBundle = assetBundle ?? rootBundle;
 
+  Future<File?> _getLocalJsonFile() async {
+    try {
+      final dir = await getApplicationDocumentsDirectory();
+      return File('${dir.path}/users.json');
+    } catch (_) {
+      return null;
+    }
+  }
+
+  @override
+  Future<String?> getLocalJsonFilePath() async {
+    final file = await _getLocalJsonFile();
+    return file?.path;
+  }
+
   @override
   Future<List<User>> getAllUsers() async {
+    // 1. Try reading from SharedPreferences
     final persistedJson = _preferences.getString(AppConstants.prefsUsersKey);
 
     if (persistedJson != null && persistedJson.isNotEmpty) {
@@ -36,11 +55,27 @@ class UserLocalDataSourceImpl implements UserLocalDataSource {
             .map((item) => User.fromJson(item as Map<String, dynamic>))
             .toList();
       } catch (_) {
-        // Fallback to initial assets if stored data was corrupted
+        // Fallback
       }
     }
 
-    // Read bundled initial user dataset (fallback)
+    // 2. Try reading from physical local users.json file
+    try {
+      final file = await _getLocalJsonFile();
+      if (file != null && await file.exists()) {
+        final content = await file.readAsString();
+        if (content.isNotEmpty) {
+          final List<dynamic> decoded = json.decode(content) as List<dynamic>;
+          return decoded
+              .map((item) => User.fromJson(item as Map<String, dynamic>))
+              .toList();
+        }
+      }
+    } catch (_) {
+      // Fallback
+    }
+
+    // 3. Fallback to bundled initial asset dataset
     try {
       final initialAssetString =
           await _assetBundle.loadString(AppConstants.usersJsonPath);
@@ -68,10 +103,20 @@ class UserLocalDataSourceImpl implements UserLocalDataSource {
 
     currentUsers.add(user);
 
-    // Serialize and write to device local storage
+    // Serialize to JSON string
     final jsonList = currentUsers.map((u) => u.toJson()).toList();
     final serialized = json.encode(jsonList);
+
+    // Save to SharedPreferences
     await _preferences.setString(AppConstants.prefsUsersKey, serialized);
+
+    // Also persist to physical writable users.json file on device
+    try {
+      final file = await _getLocalJsonFile();
+      if (file != null) {
+        await file.writeAsString(serialized);
+      }
+    } catch (_) {}
   }
 
   @override

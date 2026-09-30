@@ -4,7 +4,6 @@ import 'package:furniture_store/data/datasources/user_local_data_source.dart';
 import 'package:furniture_store/data/datasources/product_local_data_source.dart';
 import 'package:furniture_store/data/models/dimensions.dart';
 import 'package:furniture_store/data/models/product.dart';
-import 'package:furniture_store/data/models/user.dart';
 import 'package:furniture_store/data/repositories/auth_repository_impl.dart';
 import 'package:furniture_store/data/repositories/product_repository_impl.dart';
 import 'package:furniture_store/features/auth/bloc/auth_bloc.dart';

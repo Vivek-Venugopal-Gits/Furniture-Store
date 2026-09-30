@@ -7,10 +7,12 @@ import '../../products/pages/product_details_page.dart';
 /// pricing hierarchy, and rating pill.
 class ProductCard extends StatelessWidget {
   final Product product;
+  final String heroTagPrefix;
 
   const ProductCard({
     super.key,
     required this.product,
+    this.heroTagPrefix = 'catalog',
   });
 
   String _formatPrice(num price) {
@@ -29,12 +31,16 @@ class ProductCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final hasDiscount = product.discountPercentage > 0;
+    final heroTag = '${heroTagPrefix}_product_image_${product.id}';
 
     return GestureDetector(
       onTap: () {
         Navigator.of(context).push(
           MaterialPageRoute(
-            builder: (_) => ProductDetailsPage(product: product),
+            builder: (_) => ProductDetailsPage(
+              product: product,
+              heroTag: heroTag,
+            ),
           ),
         );
       },
@@ -68,7 +74,7 @@ class ProductCard extends StatelessWidget {
                       top: Radius.circular(15),
                     ),
                     child: Hero(
-                      tag: 'product_image_${product.id}',
+                      tag: heroTag,
                       child: Image.asset(
                         product.imageUrl,
                         fit: BoxFit.cover,

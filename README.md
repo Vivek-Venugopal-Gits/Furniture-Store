@@ -347,6 +347,8 @@ To add a new product:
    ```
 5. Launch the application:
    ```bash
+   flutter run -d <device-id>
+
    # Run on connected Windows desktop
    flutter run -d windows
 

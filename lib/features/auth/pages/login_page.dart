@@ -79,26 +79,34 @@ class _LoginPageState extends State<LoginPage> {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        // Brand Icon Monogram
+                        // Brand App Logo
                         Center(
                           child: Container(
-                            width: 68,
-                            height: 68,
+                            width: 80,
+                            height: 80,
                             decoration: BoxDecoration(
-                              color: AppColors.primaryWalnut,
-                              borderRadius: BorderRadius.circular(20),
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(22),
                               boxShadow: [
                                 BoxShadow(
-                                  color: AppColors.primaryWalnut.withValues(alpha: 0.25),
+                                  color: AppColors.primaryWalnut.withValues(alpha: 0.12),
                                   blurRadius: 16,
                                   offset: const Offset(0, 6),
                                 ),
                               ],
                             ),
-                            child: const Icon(
-                              Icons.chair_outlined,
-                              size: 36,
-                              color: AppColors.textOnPrimary,
+                            clipBehavior: Clip.antiAlias,
+                            child: Image.asset(
+                              AppConstants.appLogoPath,
+                              fit: BoxFit.cover,
+                              errorBuilder: (context, error, stackTrace) => Container(
+                                color: AppColors.primaryWalnut,
+                                child: const Icon(
+                                  Icons.chair_outlined,
+                                  size: 40,
+                                  color: AppColors.textOnPrimary,
+                                ),
+                              ),
                             ),
                           ),
                         ),

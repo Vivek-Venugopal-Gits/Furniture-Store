@@ -9,6 +9,7 @@ class AppConstants {
   static const String productsJsonPath = 'assets/data/products.json';
   static const String usersJsonPath = 'assets/data/users.json';
   static const String heroBannerPath = 'assets/images/products/hero_banner.jpg';
+  static const String appLogoPath = 'assets/images/app_logo.png';
 
   // Local storage keys
   static const String prefsUsersKey = 'persisted_users_json';
